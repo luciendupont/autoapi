@@ -38,7 +38,7 @@ const App = () => {
           keyExtractor={({id}) => id}
           renderItem={({item}) => (
             <Text>
-              {item.nomdelavoiture},{item.marquedelavoiture}
+              {item.nomdelavoiture},{item.marquedelavoiture},{item.description}
             </Text>
           )}
         />
